@@ -70,22 +70,21 @@
 \addtocounter{totalreviewscount}{\theconferencereviewscount}
 
 % personal information
-
-\ecvname{Mario Rossi}
-\ecvaddress{ABC Road, 100/2 - 12345 Rome (Italy)}
-\ecvtelephone[+39 02 1234567]{+39 392 1234567}
-\ecvemail{mario.rossi@hisdomain.org}
-\ecvhomepage{\href{http://www.mariorossisamplewebsite.com}{www.mariorossisamplewebsite.com}}
-\ecvlinkedin{\href{http://www.linkedin.com/in/mariorossi.sample}{linkedin.com/in/mariorossi.sample}}
+\ecvname{Kislaya Ravi}
+\ecvaddress{0337, Grassmeirestrasse 17, Munich, 80805 (Germany)}
+\ecvtelephone[+49 179 4111486]{+49 179 4111486}
+\ecvemail{kislayaravi24@gmail.com}
+%\ecvhomepage{\href{http://www.mariorossisamplewebsite.com}{www.mariorossisamplewebsite.com}}
+\ecvlinkedin{\href{http://www.linkedin.com/in/kislaya-ravi}{linkedin.com/in/kislaya-ravi}}
 %\ecvgender{Male}
-\ecvdateofbirth{January 1st, 1950}
-\ecvnationality{Italian}
+\ecvdateofbirth{24 February, 1991}
+\ecvnationality{Indian}
 
 \ecvfootnote{}
 \ecvbeforepicture{\raggedleft}
-\ecvqrcode[width=3cm]{../img/qrcode}
-\ecvafterqrcode{\ecvspace{-2.5cm}}
-\ecvpicture[height=3cm]{../img/avatar}
+%\ecvqrcode[width=3cm]{../img/qrcode}
+%\ecvafterqrcode{\ecvspace{-2.5cm}}
+\ecvpicture[height=3cm]{../img/photo.jpg}
 
 \begin{document}
 
@@ -97,85 +96,138 @@
 
 \ecvpersonalinfo%[10pt]
 
-\ecvposition{Job applied for}{Human Resources}
-
-\ecvsection{Work experience}
-
-\ecvworkexperience{August 2002 -- Present}{Independent consultant}{British Council}{123, Bd Ney, 75023 Paris (France)}{Evaluation of European Commission youth training support measures for youth national agencies and young people}
-
-\ecvworkexperience{March 2002 -- July 2002}{Internship}{European Commission, Youth Unit, DG Education and Culture}{
-- evaluating youth training programmes for SALTO UK and the partnership between the Council of Europe and European Commission\par
-- organizing and running a 2 day workshop on non-formal education for Action 5 large scale projects focusing on quality, assessment and recognition\par
-- contributing to the steering group on training and developing action plans on training for the next 3 years. Working on the Users Guide for training and the support measures}
-
-\ecvworkexperience{October 2001 -- February 2002}{Researcher / Independent Consultant}{Council of Europe, Budapest (Hungary)}{}{Working in a research team carrying out in-depth qualitative evaluation of the 2 year Advanced Training of Trainers in Europe using participant observations, in-depth interviews and focus groups.\par
-Work carried out in training courses in Strasbourg, Slovenia and Budapest.}
+\ecvposition{Job applied for}{Working Student}
 
 \ecvsection{Education and training}
 
-\ecveducation{1997 -- 2001}{PhD - Thesis Title: `Young People in the Construction of the Virtual University', Empirical research on e-learning}{Brunel University, London United Kingdom}{}{}
+\ecveducation{Oct 2016 -- March 2019}{Master in Science, Computational Science and Engineering}
+{Technical University, Munich, Germany}{
+    \begin{itemize}
+        \item Multidisciplinary program with confluence of Computer Science, Applied Mathematics and an application field of once choice
+        \item Mathematical modelling, Numerical analysis, Efficient Algorithms, Computer Architecture, Software Design and Implementation, Validation, and Visualization of results
+        \item Master's Thesis: Neural Network Hyperparameter Optimization using SNOWPAC
+            \begin{itemize}
+                \item[-] Developed a mixed integer trust-region optimization tool in C++ to optimize non-linear constrained mixed-integer optimization problems
+                \item[-] Used the developed code to optimize hyperparameters of a neural network and compare it with existing methods
+            \end{itemize}
+    \end{itemize}
+}{}
 
-\ecveducation{1993 -- 1997}{Bachelor of Science in Sociology and Psychology}{Brunel University, London United Kingdom}{
+\ecveducations{June 2009 -- June 2014}{Bachelor of Technology, Mechanical Engineering} 
+{Indian Institute of Technology, Banaras Hindu University, Varanasi, India}{
 \begin{itemize}
-\item sociology of risk
-\item sociology of scientific knowledge / information society
-\item anthropology
-\item E-learning and Psychology
-\item research methods
-\end{itemize}}{}
-
-% automatically generated publications section
-\ecvsection{Scientific Publications}
-
-\ecvitem{\ifthenelse{\boolean{academic}}{Scientific Papers}{}}{\begin{itemize}
-\item \foreach \x [count=\xi] in \papers {\ifnum\xi=1 \bibentry{\x} \addnumber \fi} % first item
-\foreach \x [count=\xi] in \papers {\ifnum\xi=1 \else \item \bibentry{\x} \addnumber \fi} % remaining items
+    \item Both master and bachelor degreee awarded as part of Integrated dual degree course
+    \item Basics of mechanical engineering like machine design, fluid dynamics, solid mechanics, production engineering, operational methods, etc.
+    \item Masters Thesis: Axi-symmetric dynamic response of buried orthotropic cylindrical shells due to compressive wave using Finite Difference techniques. \par
+            - Implemented code in Matlab to solve shell equation and studied the behavior of lifelines like sewage pipes, water pipelines, etc. during earthquakes
 \end{itemize}
 }
+{Master of Technology, Machine Design}
 
-\ifthenelse{\boolean{academic}}{\ecvitem{Technical Reports}{\begin{itemize}
-\foreach \x [count=\xi] in \technicalreports {\item \bibentry{\x} \addnumber\ }
-\end{itemize}}}{}
 
-\ifthenelse{\boolean{academic}}{\ecvitem{Review Activities}{
+\ecvsection{Work experience}
 
-\vspace{0.3em}
-
-\begin{itemize}
-\foreach \x [count=\xi] in \journalreviews {\item {\x} \addnumber}
-\foreach \x [count=\xi] in \conferencereviews {\item {\x} \addnumber}
-\end{itemize}}}{}
-
-\ifthenelse{\boolean{academic}}{}{
-	\ecvitem{Altro}{
-		I have registered $\thetechnicalreportscount$ internal technical reports.
-
-		Moreover, I have accomplished $\thetotalreviewscount$ reviews on international journals and conferences. % $\thejournalreviewscount$ and $\theconferencereviewscount$
-	}
+\ecvworkexperience{Aug 2017 -- Sep 2018}{Research Assistant}
+{Engineering Risk and Analysis}
+{Technical University Munich, Germany}
+{
+    - Project BAYES: Bayesian updating of engineering models with spatially variable properties \par
+    - Generated random field in C++ for given mean and covariance operator and solved corresponding elliptical and parabolic PDE using FEniCS \par
+    - Made API in Python by wrapping C++ code to be used for inverse problem solution
 }
+
+\ecvworkexperience{July 2014 -- July 2016}{Assistant Manager}{Maruti Suzuki India Limited, Gurugram, India}{
+    - Design and Development of Exterior Trims for New Model Development  \par
+    - Co-ordinated and managed external vendors for timely development \par
+    - Understood various design standards, techniques and pipelines in automobile sector
+}
+
+\ecvsection{Relevant Projects}
+
+\ecveducation {June 2017 -- July 2017} {Lattice Boltzmann Method} {Technical University Munich}{
+    - Topic: Simulation of Blood Flow through Aorta using Lattice Boltzmann Method \par
+    - Implemented Lattice Boltzmann method in C++ for unstructured grid and parallelised the code using MPI \par
+    - Decomposed the unstructured domain for proper load balancing \par
+    - Got acquainted with various techniques used in parallel programming and High Performance Computing
+}
+
+%\ecveducation {September 2017 -- October 2017} {Computational Stochastic Dynamics} {Technical University Munich}{
+    %- Topic: Solution of Particle Dispersion under Divergence Free Flow using Monte Carlo, Ito’s Calculus, Path Integral and Equivalent Linearization Methods \par
+    %- Implemented and compared various method to study dispersion of pollutants in coastal region in Matlab \par
+    %- Got acquainted with various techniques used to model and approximate the stochastic processes
+%}
+
+\ecveducation {September 2018 -- October 2018} {Blind Deconvolution of Blurry Images using CUDA} {Technical University Munich}{
+    - Topic: GPU Parallelisation of Total Variation Blind Deconvolution using CUDA \par
+    - Constructing sharp image from blurry image without prior knowledge of degradation \par
+    - Implemented and tuned the code in C++ CUDA framework \par
+    - Learned basics of OpenCV, CUDA, profiling and optimization techniques in CUDA
+}
+
+\ecvsection{Computer Skills}
+
+\ecvitem[10pt]{Programming Language}{
+    C, C++, Python, Matlab, Bash Scripting
+}
+
+\ecvitem[10pt]{Frameworks/ Tools}{
+    PyTorch, CUDA, OpenCV, CMake, Git
+}
+
+\ecvitem[10pt]{Libraries}{
+    ARPACK++, GNU Plot, BOOST, FEniCS, MPI, OpenMP, METIS
+}
+
+\ecvitem[10pt]{Softwares ans Operating Systems}{
+    \LaTeX , Microsoft Office, Paraview, Windows, Linux
+}
+
+\ecvsection{Scientific Publications}
+
+\ecvitem[10pt]{  }{
+    Uttam, Vishad, Jain, Nitin, and Ravi, Kislaya. Phenomenon of Corrosion in Chrome Plated ABS Parts. No. 2016-28-0066. SAE Technical Paper, 2016.
+}
+%TODO: Work on this later
+%\ecvitem{\ifthenelse{\boolean{academic}}{Scientific Papers}{}}{\begin{itemize}
+%\item \foreach \x [count=\xi] in \papers {\ifnum\xi=1 \bibentry{\x} \addnumber \fi} % first item
+%\foreach \x [count=\xi] in \papers {\ifnum\xi=1 \else \item \bibentry{\x} \addnumber \fi} % remaining items
+%\end{itemize}
+%}
+
+%\ifthenelse{\boolean{academic}}{\ecvitem{Technical Reports}{\begin{itemize}
+%\foreach \x [count=\xi] in \technicalreports {\item \bibentry{\x} \addnumber\ }
+%\end{itemize}}}{}
+
+%\ifthenelse{\boolean{academic}}{\ecvitem{Review Activities}{
+
+%\vspace{0.3em}
+
+%\begin{itemize}
+%\foreach \x [count=\xi] in \journalreviews {\item {\x} \addnumber}
+%\foreach \x [count=\xi] in \conferencereviews {\item {\x} \addnumber}
+%\foreach \x [count=\xi] in \technicalreports {\item {\x} \addnumber}
+%\end{itemize}}}{}
 
 \ecvsection{Personal skills}
 
-\ecvmothertongue[20pt]{English}
+\ecvmothertongue[20pt]{Hindi}
+\vspace{-2em}
 \ecvlanguageheader
-\ecvlanguage{French}{C1}{C2}{B2}{C1}{C2}
+\ecvlanguage{English}{C2}{C2}{C2}{C2}{C2}
 \ecvlastlanguage{German}{A2}{A2}{A2}{A2}{A2}
 \ecvlanguagefooter[10pt]
-
-\ecvitem[10pt]{Communication skills}{
-- team work: I have worked in various types of teams from research teams to national league hockey. For 2 years I coached my university hockey team\par
-- mediating skills: I work on the borders between young people, youth trainers, youth policy and researchers, for example running a 3 day workshop at CoE Symposium `Youth Actor of Social Change', and my continued work on youth training programmes\par
-- intercultural skills: I am experienced at working in a European dimension such as being a rapporteur at the CoE Budapest `youth against violence seminar' and working with refugees.}
-
+\vspace{-2em}
 \ecvitem[10pt]{Organisational / managerial skills}{
-- whilst working for a Brussels based refugee NGO `Convivial' I organized a `Civil Dialogue between refugees and civil servants at the European Commission 20th June 2002\par
-- during my PhD I organised a seminar series on research methods}
+- Team Leader: Lead the team which represented IIT (BHU), Varanasi in SAE Efficycle 2012, a national level three wheeler efficient vehicle design competition \par
+- SAE Events Organization: Organized various workshops \par
+- Training and Placement Representative Mechanical IDD, 2012
+}
 
-\ecvitem[10pt]{Computer skills}{Creating pieces of Art and visiting Modern Art galleries. Enjoy all sports particularly hockey, football and running. Love to travel and experience different cultures.}
+\ecvitem[10pt]{Teaching Experience}{
+    Tutorial of Mechanical Measurements at IIT (BHU), Varanasi in 2012
+}
 
-\ecvitem[10pt]{Other skills}{Creating pieces of Art and visiting Modern Art galleries. Enjoy all sports particularly hockey, football and running. Love to travel and experience different cultures.}
-
-\ecvitem[10pt]{Driving licence}{A, B}
+\ecvitem[10pt]{Hobbies}{Forr{\'o} Dancing, Table Tennis, Jogging}
 
 \end{europecv}
 

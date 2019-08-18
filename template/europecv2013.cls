@@ -458,18 +458,18 @@
 \ecv@beforepic\ecvdrawpicture\ecv@afterpic &
 \fi
 \ifx\@empty\ecv@address\else
-$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{icons/ic_address}\end{array}$\ecv@address\par\vspace{5pt}
+$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{icons/ic_address}\end{array}$\ecv@address\par\vspace{3pt}
 \fi
 \ifx\@empty\ecv@mobile\else
 $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{icons/ic_mobile}\end{array}$\ecv@mobile
  \ifx\@empty\ecv@telephone\else\qquad\includegraphics[width=\ecv@iconwidth]{icons/ic_phone_home} \ecv@telephone\fi
-\par\vspace{5pt}
+\par\vspace{3pt}
 \fi
 \ifx\@empty\ecv@email\else
-$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{icons/ic_email}\end{array}$\href{mailto:\ecv@email}{\ecv@email}\par\vspace{5pt}
+$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{icons/ic_email}\end{array}$\href{mailto:\ecv@email}{\ecv@email}\par\vspace{3pt}
 \fi
 \ifx\@empty\ecv@homepage\else
-$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{icons/ic_url}\end{array}$\ecv@homepage\par\vspace{5pt}
+$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{icons/ic_url}\end{array}$\ecv@homepage\par\vspace{3pt}
 \fi
 \ifx\@empty\ecv@linkedin\else
 $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{icons/ic_linkedin}\end{array}$\ecv@linkedin\par\vspace{10pt}
@@ -681,14 +681,20 @@ $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{icons/ic_linkedin}\en
 \newcommand{\ecvworkexperience}[6][20pt]{%
  \ecvitem[#1]{#2}{\begin{Large}\textcolor{torea-bay}{#3}\end{Large}\par\vspace{3pt}
  #4{\par}
- #5{\par\vspace{3pt}}
+ #5{\par\vspace{1pt}}
  #6}
 }
 
-\newcommand{\ecveducation}[6][30pt]{%
+\newcommand{\ecveducations}[6][20pt]{%
  \ecvitem[#1]{#2}{\begin{Large}\textcolor{torea-bay}{#3}\end{Large}
- \hfill\small\textcolor{curious-blue}{#6}\par\vspace{3pt}
- #4{\par\vspace{3pt}}
+     \par  \begin{Large}\textcolor{torea-bay}{#6}\end{Large}
+     \par #4{\par\vspace{1pt}}
+ #5}
+}
+
+\newcommand{\ecveducation}[6][20pt]{%
+ \ecvitem[#1]{#2}{\begin{Large}\textcolor{torea-bay}{#3}\end{Large}
+     \par #4{\par\vspace{1pt}}
  #5}
 }
           
